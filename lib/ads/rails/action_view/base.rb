@@ -31,7 +31,7 @@ module Ads
             content_tag(
               :div,
               nil,
-              style: "width:#{options[:width]}px;height:#{options[:height]}px;background:#c8c8c8;"
+              style: "width:#{options[:width]};height:#{options[:height]};background:#c8c8c8;"
             )
           end
         end
